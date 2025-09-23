@@ -1,0 +1,29 @@
+# Orchestrating framework langchain
+langchain==0.3.26
+
+# Flask for creating frontend and backend
+flask==3.1.1
+
+# Open Source embedding model for huggong face
+sentence-transformers==4.1.0
+
+# Becouse we are loading the pdf documnet we need pypdf
+pypdf==5.6.1
+
+# For managing my .env file we need python-dotenv
+python-dotenv==1.1.0
+
+# for vector databse we are using pinecone
+langchain-pinecone==0.2.8
+
+# SInce we are yousing the open ai model then we need langchain openia
+langchain-openai==0.3.24
+
+# Also we need langchain community becouse we need this as a dependencie
+langchain-community==0.3.26
+
+# For the setup.py file we need the below command
+-e .
+
+
+
