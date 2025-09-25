@@ -8,6 +8,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import AzureChatOpenAI
 
 
+
 from dotenv import load_dotenv
 from src.prompt import *
 import os
@@ -66,6 +67,7 @@ reg_chain = create_retrieval_chain(retriever,
 
 # nOW APP is initiallized now we will create the bacic routes
 # So this will be the defoult rout which will render the chat.html file 
+
 
 @app.route("/")
 def index():

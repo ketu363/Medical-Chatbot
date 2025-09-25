@@ -5,6 +5,7 @@ from langchain.embeddings import HuggingFaceEmbeddings # for creating embeddings
 from typing import List # for type hinting
 from langchain.schema import Document # for type hinting
 
+
 # Lets creat a function to load the data from the pdf files
 def load_pdf_files(data):
     loader = DirectoryLoader(
@@ -54,3 +55,4 @@ def download_hugging_face_embeddings_model():
         model_name=model_name # model name
     ) # loading the model
     return embeddings # returning the model
+
